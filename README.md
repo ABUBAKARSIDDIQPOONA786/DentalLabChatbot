@@ -1,7 +1,3 @@
-Creating a README file is a great way to document your project, making it easier for others (and yourself) to understand and use. Here’s a template for your Flask-based dental lab chatbot project:
-
----
-
 # MyDental Labs Chatbot
 
 Welcome to the MyDental Labs chatbot project! This application is designed to provide users with information about dental services through an interactive chatbot. Built using Flask and enhanced with Natural Language Processing (NLP) capabilities, the chatbot offers predefined responses and can be extended with more advanced features.
@@ -111,7 +107,3 @@ We welcome contributions to this project. If you would like to contribute, pleas
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize the template with specific details about your project and adjust the instructions as needed.
