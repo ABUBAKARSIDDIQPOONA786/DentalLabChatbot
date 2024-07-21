@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyDental Labs</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='chatbot.js') }}" defer></script>
+</head>
+<body>
+    <header>
+        <h1>MyDental Labs</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to MyDental Labs</h2>
+        <p>Your one-stop solution for all dental lab services.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Crown and Bridge</li>
+            <li>Implants</li>
+            <li>Orthodontics</li>
+            <li>Dentures</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a leading dental lab providing top-notch dental services.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@mydentallabs.in</p>
+        <p>Phone: +123-456-7890</p>
+    </section>
+
+    <div id="chatbot">
+        <div id="chatbox">
+            <div id="messages"></div>
+            <div id="quick-replies">
+            </div>
+            <input type="text" id="userMessage" placeholder="Type a message..." />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+</body>
+</html>
