@@ -31,8 +31,8 @@ To get started with this project, follow these steps:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/mydental-labs-chatbot.git
-cd mydental-labs-chatbot
+git clone https://github.com/ABUBAKARSIDDIQPOONA786/DentalLabChatbot_CodingRaja_Task1.git
+cd DentalLabChatbot_CodingRaja_Task1
 ```
 
 ### Install Dependencies
@@ -106,4 +106,4 @@ We welcome contributions to this project. If you would like to contribute, pleas
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](License) file for details.
