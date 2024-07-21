@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
+import os  # Import os module to handle environment variables
 
 app = Flask(__name__)
 CORS(app)
@@ -16,8 +17,6 @@ predefined_responses = {
     'services3' : 'Orthodontics is a dental specialty that focuses on diagnosing, preventing, and correcting issues with teeth and jaws, as well as bite patterns.',
     'services4' : 'Dentures are removable replacements for missing teeth and surrounding tissues.'
 }
-
-
 
 def get_predefined_response(user_input):
     user_input = user_input.lower()
